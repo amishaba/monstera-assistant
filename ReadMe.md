@@ -1,8 +1,8 @@
 # 🌿 MinMax Monstera: First Class
 
-> **A high-fidelity, safety-first desktop companion powered by Google Gemini.**
+> **A high-fidelity desktop query engine powered by Google Gemini.**
 
-MinMax Monstera is an interactive desktop mascot designed for simplicity and safety. It features a procedurally animated Monstera plant that listens to your voice and provides factual, guardrailed answers suitable for all ages (Kids & Boomers friendly).
+MinMax Monstera is a voice-activated information kiosk designed for instant knowledge retrieval. Instead of a chatty assistant, it functions as a streamlined Q&A engine: you ask a factual question, and it delivers a direct, concise answer. It features a procedurally animated Monstera interface that strips away conversational fluff to focus purely on the information you need.
 
 ![Project Status](https://img.shields.io/badge/Status-Active-success)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -10,13 +10,14 @@ MinMax Monstera is an interactive desktop mascot designed for simplicity and saf
 
 ## ✨ Features
 
-* **High-Definition Animation:** A vector-based Monstera plant that sways, blinks, and reacts to states (Listening, Thinking, Idle).
-* **"First Class" UI:** Modern "Glass-morphism" design using CustomTkinter.
-* **Audio Intelligence:** Records voice input (Push-to-Talk) and processes it via Google Gemini 2.0 Flash.
-* **Safety Guardrails:**
-    * **Strict Filtering:** Blocks harassment, hate speech, and dangerous content (Low Threshold).
-    * **Persona Lock:** Enforces a polite, factual, and simple "Plant Persona."
-    * **No Jargon:** Explains concepts simply without tech-speak.
+* **Instant Info Retrieval:** Optimized for quick definitions, fact-checks, and explanations without conversational delay.
+* **High-Definition Animation:** A vector-based Monstera plant that visualizes system states (Listening, Processing, Idle).
+* **"First Class" UI:** Modern "Glass-morphism" design utilizing CustomTkinter.
+* **Audio Intelligence:** Low-latency voice input (Push-to-Talk) processed via Google Gemini 2.0 Flash.
+* **Strict Guardrails:**
+    * **Zero Fluff:** Configured to ignore small talk and personal inquiries.
+    * **Fact-First:** Prioritizes objective accuracy over creative writing.
+    * **Safety Filters:** High-threshold filtering for professional/safe environments.
 
 ## 🛠️ Installation
 
@@ -27,8 +28,8 @@ MinMax Monstera is an interactive desktop mascot designed for simplicity and saf
 ### Setup
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/minmax-monstera.git](https://github.com/YOUR_USERNAME/monstera-assistant.git)
-    cd monstera-assistant
+    git clone [https://github.com/YOUR_USERNAME/minmax-monstera.git](https://github.com/YOUR_USERNAME/minmax-monstera.git)
+    cd minmax-monstera
     ```
 
 2.  **Install dependencies**
@@ -51,15 +52,15 @@ MinMax Monstera is an interactive desktop mascot designed for simplicity and saf
     python main.py
     ```
 2.  **Hold the SPACE BAR** or click the **"HOLD TO SPEAK"** button.
-3.  Ask a question clearly.
-4.  Release to let the Monstera think and answer.
+3.  State your query clearly (e.g., "Define quantum entanglement" or "What is the capital of Peru?").
+4.  Release to receive an instant text response.
 
-## 🛡️ Safety & Guardrails
+## 🛡️ Operational Logic
 
-This project is engineered for **Information Safety**.
-* **System Prompt:** Hard-locked to refuse roleplay, personal questions, or unsafe topics.
-* **API Settings:** Configured to `BLOCK_LOW_AND_ABOVE` for all harm categories.
-* **Temperature:** Set to `0.5` for consistent, factual outputs.
+This project is engineered for **Efficiency and Accuracy**.
+* **System Prompt:** Hard-locked to act as an encyclopedia, refusing roleplay or subjective conversation.
+* **API Settings:** Configured to `BLOCK_LOW_AND_ABOVE` to prevent hallucination of unsafe content.
+* **Temperature:** Set to `0.5` to ensure deterministic, factual outputs.
 
 ## 📂 Project Structure
 
